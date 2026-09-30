@@ -1,7 +1,7 @@
 export const SITE = {
   shortName: 'Nithyashri',
   name: 'Nithyashri M',
-  role: 'Backend Developer | Full Stack Developer',
+  role: 'Software Developer',
   headline: "Hi, I'm",
   tagline: 'Build • Learn • Grow • Repeat',
   summary:

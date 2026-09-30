@@ -225,7 +225,7 @@ export function HeroProfilePhoto() {
       <img
         src={profileImg}
         className="hero-photo is-ready is-fallback"
-        alt="Portrait of Nithyashri M, Backend Developer"
+        alt="Portrait of Nithyashri M, Software Developer"
       />
     )
   }
@@ -235,7 +235,7 @@ export function HeroProfilePhoto() {
       ref={canvasRef}
       className={`hero-photo${mode === 'loading' ? '' : ' is-ready'}`}
       role="img"
-      aria-label="Portrait of Nithyashri M, Backend Developer"
+      aria-label="Portrait of Nithyashri M, Software Developer"
     />
   )
 }

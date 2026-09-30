@@ -13,7 +13,7 @@ export function About() {
                 <span>01</span> / About
               </p>
               <h2 className="page-title">About Me</h2>
-              <p className="about-lead">A backend-focused full stack developer who also cares about how software feels.</p>
+              <p className="about-lead">A software developer who also cares about how software feels.</p>
 
               <div className="status-badge">
                 <span className="status-dot" />
@@ -55,7 +55,7 @@ export function About() {
                   <code>
                     <span className="tok-kw">const</span> engineer = {'{'}
                     {'\n'}
-                    {'  '}role: <span className="tok-str">"Backend Developer | Full Stack Developer"</span>,{'\n'}
+                    {'  '}role: <span className="tok-str">"{SITE.role}"</span>,{'\n'}
                     {'  '}stack: [<span className="tok-str">"NestJS"</span>, <span className="tok-str">"TypeScript"</span>],{'\n'}
                     {'  '}mindset: <span className="tok-str">"Build. Learn. Grow."</span>
                     {'\n'}

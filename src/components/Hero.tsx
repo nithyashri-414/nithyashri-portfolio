@@ -133,7 +133,7 @@ export function Hero() {
                 <span className="tok-kw">const</span> developer = {'{'}
                 {'\n'}
                 {'  '}name: <span className="tok-str">"Nithyashri M"</span>,{'\n'}
-                {'  '}role: <span className="tok-str">"Backend Developer | Full Stack Developer"</span>,{'\n'}
+                {'  '}role: <span className="tok-str">"{SITE.role}"</span>,{'\n'}
                 {'  '}skills: [{'\n'}
                 {'    '}<span className="tok-str">"TypeScript"</span>,{'\n'}
                 {'    '}<span className="tok-str">"Node.js"</span>,{'\n'}
