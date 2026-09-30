@@ -6,6 +6,9 @@ import { ViewResumeLink } from './ViewResumeLink.tsx'
 import { TechIcon } from './icons/TechIcons.tsx'
 
 const TECH_WORDS = [
+  { text: 'HTML', className: 'tw-html' },
+  { text: 'CSS', className: 'tw-css' },
+  { text: 'Bootstrap', className: 'tw-bootstrap' },
   { text: 'JavaScript', className: 'tw-js' },
   { text: 'TypeScript', className: 'tw-ts' },
   { text: 'React', className: 'tw-react' },
@@ -18,6 +21,9 @@ const TECH_WORDS = [
 const ORBIT_TECH = [
   { name: 'Git', className: 'chip-git' },
   { name: 'DSA', className: 'chip-dsa' },
+  { name: 'HTML', className: 'chip-html' },
+  { name: 'CSS', className: 'chip-css' },
+  { name: 'Bootstrap', className: 'chip-bootstrap' },
   { name: 'JavaScript', className: 'chip-js' },
   { name: 'TypeScript', className: 'chip-ts' },
   { name: 'NestJS', className: 'chip-nest' },
@@ -118,7 +124,7 @@ export function Hero() {
         <div className="hero-rail">
           <div className="hero-mini-card">
             <p className="hero-mini-kicker">Currently exploring</p>
-            <p>NestJS · TypeScript · REST APIs</p>
+            <p>React · NestJS · TypeScript</p>
           </div>
 
           <aside className="code-card" aria-label="Developer profile snippet">
@@ -135,11 +141,13 @@ export function Hero() {
                 {'  '}name: <span className="tok-str">"Nithyashri M"</span>,{'\n'}
                 {'  '}role: <span className="tok-str">"{SITE.role}"</span>,{'\n'}
                 {'  '}skills: [{'\n'}
+                {'    '}<span className="tok-str">"HTML"</span>,{'\n'}
+                {'    '}<span className="tok-str">"CSS"</span>,{'\n'}
+                {'    '}<span className="tok-str">"React"</span>,{'\n'}
                 {'    '}<span className="tok-str">"TypeScript"</span>,{'\n'}
                 {'    '}<span className="tok-str">"Node.js"</span>,{'\n'}
                 {'    '}<span className="tok-str">"NestJS"</span>,{'\n'}
-                {'    '}<span className="tok-str">"Spring Boot"</span>,{'\n'}
-                {'    '}<span className="tok-str">"React"</span>{'\n'}
+                {'    '}<span className="tok-str">"Spring Boot"</span>{'\n'}
                 {'  '}],{'\n'}
                 {'  '}mindset: <span className="tok-str">"Always learning"</span>
                 {'\n'}

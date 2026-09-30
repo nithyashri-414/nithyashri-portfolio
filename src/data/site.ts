@@ -5,11 +5,11 @@ export const SITE = {
   headline: "Hi, I'm",
   tagline: 'Build • Learn • Grow • Repeat',
   summary:
-    'Computer Science Engineer with professional experience in backend and UI development. Experienced in developing backend APIs, implementing business logic, API testing, bug resolution, and UI customization.',
+    'Software Developer with professional experience in backend and UI development. Experienced in building REST APIs, implementing business logic, developing responsive user interfaces, integrating APIs, and resolving application issues.',
   about:
-    'Computer Science Engineer with professional experience in backend and UI development. Experienced in developing backend APIs using NestJS, Node.js, and TypeScript, implementing business logic, API testing, bug resolution, and working with REST APIs, PostgreSQL, and MongoDB.',
+    'Software Developer with professional experience in backend and UI development. Experienced in developing backend APIs using NestJS, Node.js, and TypeScript, implementing business logic, API testing, bug resolution, and working with REST APIs, PostgreSQL, and MongoDB.',
   uiExperience:
-    'Also experienced in working with existing pre-built UI templates and customizing interfaces using HTML and CSS.',
+    'Also experienced in developing responsive user interfaces, integrating APIs, and customizing existing UI templates using HTML, CSS, Bootstrap, JavaScript, TypeScript, and React.',
   location: 'Cuddalore, Tamil Nadu',
   email: 'nithyashri2808@gmail.com',
   linkedin: 'https://www.linkedin.com/in/nithyashri-m',

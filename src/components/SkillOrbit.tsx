@@ -1,6 +1,6 @@
 import { TechIcon } from './icons/TechIcons.tsx'
 
-const ORBIT = ['TypeScript', 'Node.js', 'NestJS', 'Spring Boot', 'PostgreSQL', 'MongoDB', 'JavaScript', 'Git']
+const ORBIT = ['HTML', 'CSS', 'Bootstrap', 'TypeScript', 'Node.js', 'NestJS', 'Spring Boot', 'PostgreSQL']
 
 export function SkillOrbit() {
   return (

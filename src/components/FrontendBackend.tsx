@@ -2,8 +2,8 @@ import { TechIcon } from './icons/TechIcons.tsx'
 import { ScrollReveal } from './ScrollReveal.tsx'
 import { SectionHeading } from './SectionHeading.tsx'
 
-const FRONTEND = ['React', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'Bootstrap']
-const BACKEND = ['Node.js', 'NestJS', 'Spring Boot']
+const FRONTEND = ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'TypeScript', 'React']
+const BACKEND = ['Node.js', 'NestJS', 'Spring Boot', 'REST APIs']
 const DATABASE = ['PostgreSQL', 'MongoDB']
 
 function ChipRow({ items }: { items: string[] }) {

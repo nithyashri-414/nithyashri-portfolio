@@ -56,13 +56,15 @@ export function About() {
                     <span className="tok-kw">const</span> engineer = {'{'}
                     {'\n'}
                     {'  '}role: <span className="tok-str">"{SITE.role}"</span>,{'\n'}
-                    {'  '}stack: [<span className="tok-str">"NestJS"</span>, <span className="tok-str">"TypeScript"</span>],{'\n'}
+                    {'  '}stack: [<span className="tok-str">"React"</span>, <span className="tok-str">"NestJS"</span>, <span className="tok-str">"TypeScript"</span>],{'\n'}
                     {'  '}mindset: <span className="tok-str">"Build. Learn. Grow."</span>
                     {'\n'}
                     {'};'}
                   </code>
                 </pre>
                 <div className="workspace-nodes">
+                  <span>HTML</span>
+                  <span>CSS</span>
                   <span>REST APIs</span>
                   <span>PostgreSQL</span>
                   <span>MongoDB</span>
